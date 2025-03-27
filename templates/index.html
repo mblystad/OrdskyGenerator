@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Ordsky Generator{% endblock %}
+
+{% block content %}
+<div class="mt-5">
+    <h1 class="text-center mb-4">🔤 Ordsky-generator</h1>
+    <form method="POST" action="/" class="mt-4">
+        <div class="form-group">
+            <label for="url">🌐 Nettside URL:</label>
+            <input type="url" class="form-control" id="url" name="url" required placeholder="https://...">
+        </div>
+        <div class="form-group">
+            <label for="exclude_words">🚫 Ord å ekskludere (kommaseparert):</label>
+            <input type="text" class="form-control" id="exclude_words" name="exclude_words" placeholder="oslo, universitet, student">
+        </div>
+        <div class="form-group">
+            <label for="color_scheme">🎨 Fargevalg for ordsky:</label>
+            <select class="form-control" id="color_scheme" name="color_scheme">
+                <option value="viridis">Blå-grønn-gul (Viridis)</option>
+                <option value="coolwarm">Blå til rød (Coolwarm)</option>
+                <option value="plasma">Gul til lilla (Plasma)</option>
+                <option value="cividis">Kontrastvennlig (Cividis)</option>
+                <option value="inferno">Oransje til mørk (Inferno)</option>
+                <option value="gray">Svart-hvitt (Grayscale)</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block mt-4">🚀 Generer Ordsky</button>
+    </form>
+</div>
+{% endblock %}
