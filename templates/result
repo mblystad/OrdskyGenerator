@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Resultat{% endblock %}
+
+{% block content %}
+<div class="mt-5">
+    <h1 class="text-center">Generert Ordsky</h1>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='wordclouds/' + image_filename) }}" alt="Ordsky" class="img-fluid mt-3">
+    </div>
+    <div class="text-center mt-4">
+        <a href="{{ url_for('download_excel', filename=excel_filename) }}" class="btn btn-success">Last ned Excel-fil</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Tilbake</a>
+    </div>
+</div>
+{% endblock %}
