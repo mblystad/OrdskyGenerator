@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Uploads and generated images
+uploads/
+static/wordclouds/
+*.xlsx
+*.png
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
