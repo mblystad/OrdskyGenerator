@@ -5,19 +5,6 @@ En interaktiv webapplikasjon som lar deg generere en ordsky basert på innholdet
 
 
 
----
-
-## 🚀 Demo
-
-1. Gå til appens startside
-2. Lim inn en URL til en nettside du vil analysere
-3. Velg hvilke ord du vil ekskludere (f.eks. “oslo, universitet”)
-4. Velg et fargevalg
-5. Klikk på **Generer Ordsky**
-6. Se resultatet og last ned Excel-fil med data
-
----
-
 ## 🎯 Funksjonalitet
 
 - 📥 Hent tekst fra en offentlig nettside
