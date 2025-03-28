@@ -31,8 +31,8 @@ En interaktiv webapplikasjon som lar deg generere en ordsky basert på innholdet
 
 ```bash
 # 1. Klon repoet
-git clone https://github.com/dittbrukernavn/ordsky-generator.git
-cd ordsky-generator
+git clone https://github.com/mblystad/OrdskyGenerator.git
+cd OrdskyGenerator
 
 # 2. Installer avhengigheter
 pip install -r requirements.txt
